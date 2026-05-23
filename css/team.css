@@ -1,11 +1,25 @@
 .team {
     padding: 120px 0;
     background-color: #f4f4fd;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .team-list {
     display: flex;
     gap: 24px;
+}
+
+.team-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .team-item {

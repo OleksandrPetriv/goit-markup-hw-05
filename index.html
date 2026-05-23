@@ -72,7 +72,6 @@
 
 </header>
 
-
 <main>
   
 <section id="hero" class="hero">
@@ -628,9 +627,77 @@
       </ul>
     </div>
 
+      <div class="footer-email-t">
+        <p class="title-sub">Subscribe</p>
+        <div class="footer-email-text">
+          <label for="footer-email" class="label-class"></label>
+          <input
+          type="email"
+          class="footer-email"
+          name="email"
+          placeholder="E-mail"
+          >
+           <button type="submit" class="btn-email"><span class="sub">Subscribe</span>
+            <div class="btn-sub">
+                    <svg width="24" height="24">
+                      <use href="./images/icons.svg#icon-illustration"></use>
+                    </svg>
+          
+                </div>
+                 </button>
+        </div>
+       </div>
+
+      </div>
+    
   </div>
 
 </footer>
+
+<div class="modal-overlay">
+  <div class="modal">
+    <p class="modal-title">Leave your contacts and we will call you back</p>
+
+    <button type="button" class="close-btn">x</button>
+
+    <div class="input-wrapper">
+      <label for="form-name" class="form-label">Name</label>
+      <input 
+      type="text" 
+      id="fort-name"
+      class="input-text"
+      name="name">
+    </div>
+
+     <div class="input-wrapper">
+      <label for="form-phone-number" class="form-label">Phone</label>
+      <input 
+      type="tel" 
+      id="form-phone-number" 
+      class="input-phone"
+      name="tel">
+    </div>
+
+     <div class="input-wrapper">
+      <label for="form-email" class="form-label">Email</label>
+      <input 
+      type="email" 
+      id="form-email" 
+      class="input-email"
+      name="email">
+    </div>
+
+       <div class="input-wrapper">
+      <label for="form-comment" class="form-label">Comment</label>
+      <textarea
+      id="form-comment">
+      </textarea>
+    </div>
+
+
+  </div>
+</div>
+
 
 </body>
 </html>
