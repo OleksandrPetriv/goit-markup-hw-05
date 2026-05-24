@@ -102,18 +102,30 @@
   color: #ffffff;
   margin-bottom: 16px;
   display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
 }
 
 
 .footer-email {
-  border: 1px solid #ffffff;
-  border-radius: 4px;
-  padding: 8px 16px;
   width: 264px;
   height: 40px;
+  border: 1px solid #fff;
+  border-radius: 4px;
   background-color: transparent;
-
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .footer-email-text {
   display: flex;
@@ -122,19 +134,40 @@
 .footer-email::placeholder {
   color: #ffffff;
   font-size: 12px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer-email:focus {
+  border-color: #31d0aa;
 }
 
 .btn-email {
-  margin-left: 24px;
-  border-radius: 4px;
-  padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
-  max-width: 165px;
-  background-color: #4D5AE5;
-  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 16px;
+  transition:
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-email:hover,
+.btn-email:focus {
+  background-color: #31d0aa;
 }
 
 .btn-sub {
