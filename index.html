@@ -661,38 +661,71 @@
     <button type="button" class="close-btn">x</button>
 
     <div class="input-wrapper">
-      <label for="form-name" class="form-label">Name</label>
-      <input 
-      type="text" 
-      id="fort-name"
-      class="input-text"
-      name="name">
-    </div>
+  <label for="form-name" class="form-label">Name</label>
 
-     <div class="input-wrapper">
-      <label for="form-phone-number" class="form-label">Phone</label>
-      <input 
+  <div class="input-box">
+    <input type="text" id="form-name" class="input-text" name="name">
+
+    <svg class="input-icon" width="18" height="24">
+      <use href="./images/icons.svg#icon-person"></use>
+    </svg>
+  </div>
+</div>
+
+<div class="input-wrapper">
+  <label for="form-phone-number" class="form-label">Phone</label>
+
+  <div class="input-box">
+    <input 
       type="tel" 
       id="form-phone-number" 
       class="input-phone"
       name="tel">
-    </div>
 
-     <div class="input-wrapper">
-      <label for="form-email" class="form-label">Email</label>
-      <input 
+    <svg class="input-icon" width="18" height="24">
+      <use href="./images/icons.svg#icon-phone"></use>
+    </svg>
+  </div>
+</div>
+
+<div class="input-wrapper">
+  <label for="form-email" class="form-label">Email</label>
+
+  <div class="input-box">
+    <input 
       type="email" 
       id="form-email" 
       class="input-email"
       name="email">
-    </div>
+
+    <svg class="input-icon" width="18" height="24">
+      <use href="./images/icons.svg#icon-email"></use>
+    </svg>
+  </div>
+</div>
 
        <div class="input-wrapper">
       <label for="form-comment" class="form-label">Comment</label>
       <textarea
-      id="form-comment">
+      class="textarea"
+      id="form-comment"
+      name="comment"
+      placeholder="Text input">
       </textarea>
+
+       </div>
+
+       
+     <div class="input-wrapper">
+      <input 
+      type="checkbox" 
+      id="form-checkbox" 
+      name="form-checkbox">
+      <label for="form-checkbox" class="form-label-checkbox">I accept the terms and conditions of the <a href="" class="polisy">Privacy Policy</a></label>
+      
     </div>
+
+    <button type="submit" class="submit-btn">Send</button>
 
 
   </div>
