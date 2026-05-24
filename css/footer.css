@@ -130,6 +130,11 @@
   display: flex;
 }
 
+.footer-form {
+  display: flex;
+  align-items: center;
+}
+
 .footer-email::placeholder {
   color: #ffffff;
   font-size: 12px;
